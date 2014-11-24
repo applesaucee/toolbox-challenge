@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Radical Memory Game</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+    <body>
+      <main>
+       
+        <header>
+            <h1>Memory: Match Me If You Can!</h1>
+        </header>
+        <button id="start" type="button" class="btn btn-primary">
+            Start A New Game
+        </button>
+        <!--Probably could make this inline-->
+         <p id="time">You've been playing for __ seconds!</p>
+         <p id="found">Pairs found</p>
+         <p id="remain">Pairs left</p>
+         <p id="attempts">Number of turns</p>
+         
+         <section id="game-board">
+         </section>
+         
+         <img id ="win" src="img/Success.gif" alt="basketball amazingness">
+         
+      </main>
+       
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
